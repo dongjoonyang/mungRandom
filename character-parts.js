@@ -46,6 +46,35 @@ const CHARACTER_PARTS = {
 <circle cx="24" cy="34" r="16" fill="#FFD866" opacity="0.38"/>
 <circle cx="174" cy="248" r="22" fill="#FFD866" opacity="0.28"/>
 <circle cx="180" cy="40" r="10" fill="#FFD866" opacity="0.3"/>`
+    },
+    {
+      name: "연두",
+      svg: `<defs><linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#EDFFD0"/><stop offset="100%" stop-color="#C8F0A0"/></linearGradient></defs>
+<rect width="200" height="280" fill="url(#bg6)"/>
+<circle cx="20" cy="48" r="20" fill="#B0E080" opacity="0.3"/>
+<circle cx="180" cy="240" r="28" fill="#B0E080" opacity="0.25"/>
+<circle cx="172" cy="30" r="8" fill="#90CC60" opacity="0.4"/>`
+    },
+    {
+      name: "복숭아",
+      svg: `<defs><linearGradient id="bg7" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFE8D0"/><stop offset="100%" stop-color="#FFCC99"/></linearGradient></defs>
+<rect width="200" height="280" fill="url(#bg7)"/>
+<circle cx="38" cy="42" r="22" fill="#FFAA70" opacity="0.3"/>
+<circle cx="168" cy="246" r="28" fill="#FFAA70" opacity="0.25"/>
+<circle cx="174" cy="44" r="9" fill="#FF8844" opacity="0.35"/>
+<circle cx="22" cy="220" r="6" fill="#FF8844" opacity="0.3"/>`
+    },
+    {
+      name: "하늘별",
+      svg: `<rect width="200" height="280" fill="#E0F0FF"/>
+<circle cx="26" cy="22" r="2.5" fill="#88BBFF" opacity="0.8"/>
+<circle cx="82" cy="14" r="2" fill="#88BBFF" opacity="0.7"/>
+<circle cx="152" cy="26" r="3" fill="#88BBFF" opacity="0.75"/>
+<circle cx="178" cy="54" r="2" fill="#AACCFF" opacity="0.65"/>
+<circle cx="44" cy="264" r="2.5" fill="#88BBFF" opacity="0.6"/>
+<circle cx="168" cy="252" r="3" fill="#88BBFF" opacity="0.55"/>
+<circle cx="100" cy="12" r="2" fill="#AACCFF" opacity="0.6"/>
+<polygon points="176,228 178,235 185,235 179,239 181,246 176,242 171,246 173,239 167,235 174,235" fill="#AACCFF" opacity="0.5"/>`
     }
   ],
 
@@ -93,6 +122,30 @@ const CHARACTER_PARTS = {
 <ellipse cx="140" cy="182" rx="9" ry="15" fill="${W}" stroke="${S}" stroke-width="2.5" transform="rotate(14 140 182)"/>
 <ellipse cx="82" cy="216" rx="16" ry="10" fill="${W}" stroke="${S}" stroke-width="2.5" transform="rotate(-22 82 216)"/>
 <ellipse cx="118" cy="216" rx="16" ry="10" fill="${W}" stroke="${S}" stroke-width="2.5" transform="rotate(22 118 216)"/>`
+    },
+    {
+      name: "뒷짐",
+      svg: `<ellipse cx="62" cy="188" rx="9" ry="15" fill="${W}" stroke="${S}" stroke-width="2.5" transform="rotate(30 62 188)"/>
+<ellipse cx="138" cy="188" rx="9" ry="15" fill="${W}" stroke="${S}" stroke-width="2.5" transform="rotate(-30 138 188)"/>
+<ellipse cx="100" cy="172" rx="36" ry="26" fill="${W}" stroke="${S}" stroke-width="2.5"/>
+<ellipse cx="85" cy="216" rx="12" ry="15" fill="${W}" stroke="${S}" stroke-width="2.5"/>
+<ellipse cx="115" cy="216" rx="12" ry="15" fill="${W}" stroke="${S}" stroke-width="2.5"/>`
+    },
+    {
+      name: "점프",
+      svg: `<ellipse cx="100" cy="172" rx="36" ry="26" fill="${W}" stroke="${S}" stroke-width="2.5"/>
+<ellipse cx="52" cy="164" rx="9" ry="15" fill="${W}" stroke="${S}" stroke-width="2.5" transform="rotate(-65 52 164)"/>
+<ellipse cx="148" cy="164" rx="9" ry="15" fill="${W}" stroke="${S}" stroke-width="2.5" transform="rotate(65 148 164)"/>
+<ellipse cx="80" cy="214" rx="12" ry="15" fill="${W}" stroke="${S}" stroke-width="2.5" transform="rotate(-22 80 214)"/>
+<ellipse cx="120" cy="214" rx="12" ry="15" fill="${W}" stroke="${S}" stroke-width="2.5" transform="rotate(22 120 214)"/>`
+    },
+    {
+      name: "기지개",
+      svg: `<ellipse cx="100" cy="172" rx="36" ry="26" fill="${W}" stroke="${S}" stroke-width="2.5"/>
+<ellipse cx="50" cy="155" rx="9" ry="15" fill="${W}" stroke="${S}" stroke-width="2.5" transform="rotate(-75 50 155)"/>
+<ellipse cx="143" cy="178" rx="9" ry="15" fill="${W}" stroke="${S}" stroke-width="2.5" transform="rotate(80 143 178)"/>
+<ellipse cx="85" cy="216" rx="12" ry="15" fill="${W}" stroke="${S}" stroke-width="2.5"/>
+<ellipse cx="115" cy="216" rx="12" ry="15" fill="${W}" stroke="${S}" stroke-width="2.5"/>`
     }
   ],
 
@@ -131,6 +184,34 @@ const CHARACTER_PARTS = {
       svg: `<ellipse cx="30" cy="112" rx="24" ry="48" fill="${W}" stroke="${S}" stroke-width="2.5"/>
 <ellipse cx="170" cy="112" rx="24" ry="48" fill="${W}" stroke="${S}" stroke-width="2.5"/>
 <circle cx="100" cy="90" r="72" fill="${W}" stroke="${S}" stroke-width="2.5"/>`
+    },
+    {
+      name: "판다",
+      svg: `<circle cx="52" cy="42" r="24" fill="${W}" stroke="${S}" stroke-width="2.5"/>
+<circle cx="148" cy="42" r="24" fill="${W}" stroke="${S}" stroke-width="2.5"/>
+<circle cx="52" cy="42" r="14" fill="#2A2A2A"/>
+<circle cx="148" cy="42" r="14" fill="#2A2A2A"/>
+<circle cx="100" cy="90" r="72" fill="${W}" stroke="${S}" stroke-width="2.5"/>
+<ellipse cx="79" cy="90" rx="17" ry="14" fill="#1A1A1A" opacity="0.82"/>
+<ellipse cx="121" cy="90" rx="17" ry="14" fill="#1A1A1A" opacity="0.82"/>`
+    },
+    {
+      name: "여우",
+      svg: `<polygon points="68,70 52,14 86,54" fill="${W}" stroke="${S}" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="132,70 148,14 114,54" fill="${W}" stroke="${S}" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="70,64 60,26 83,50" fill="#FF7820"/>
+<polygon points="130,64 140,26 117,50" fill="#FF7820"/>
+<circle cx="100" cy="90" r="72" fill="${W}" stroke="${S}" stroke-width="2.5"/>`
+    },
+    {
+      name: "햄스터",
+      svg: `<circle cx="54" cy="54" r="18" fill="${W}" stroke="${S}" stroke-width="2.5"/>
+<circle cx="146" cy="54" r="18" fill="${W}" stroke="${S}" stroke-width="2.5"/>
+<circle cx="54" cy="54" r="10" fill="#FFCCAA"/>
+<circle cx="146" cy="54" r="10" fill="#FFCCAA"/>
+<circle cx="100" cy="90" r="72" fill="${W}" stroke="${S}" stroke-width="2.5"/>
+<ellipse cx="40" cy="114" rx="20" ry="16" fill="#FFDDCC" opacity="0.75"/>
+<ellipse cx="160" cy="114" rx="20" ry="16" fill="#FFDDCC" opacity="0.75"/>`
     }
   ],
 
@@ -186,6 +267,32 @@ const CHARACTER_PARTS = {
 <ellipse cx="100" cy="112" rx="5" ry="3.5" fill="#CC6677"/>
 <path d="M136,68 L144,68 L136,61 L144,61" stroke="#AAAAAA" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M142,56 L152,56 L142,47 L152,47" stroke="#BBBBBB" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`
+    },
+    {
+      name: "화남",
+      svg: `<line x1="74" y1="77" x2="94" y2="84" stroke="${S}" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="126" y1="77" x2="106" y2="84" stroke="${S}" stroke-width="2.8" stroke-linecap="round"/>
+<ellipse cx="83" cy="92" rx="7" ry="6" fill="${S}"/>
+<ellipse cx="117" cy="92" rx="7" ry="6" fill="${S}"/>
+<path d="M84,114 Q100,106 116,114" stroke="${S}" stroke-width="2.2" fill="none" stroke-linecap="round"/>`
+    },
+    {
+      name: "부끄",
+      svg: `<circle cx="82" cy="90" r="4.5" fill="${S}"/>
+<circle cx="118" cy="90" r="4.5" fill="${S}"/>
+<path d="M88,108 Q100,117 112,108" stroke="${S}" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<ellipse cx="66" cy="106" rx="18" ry="11" fill="#FF5577" opacity="0.62"/>
+<ellipse cx="134" cy="106" rx="18" ry="11" fill="#FF5577" opacity="0.62"/>`
+    },
+    {
+      name: "졸림",
+      svg: `<path d="M74,88 Q83,83 92,88" stroke="${S}" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M74,91 Q83,95 92,91" stroke="${S}" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.45"/>
+<path d="M108,88 Q117,83 126,88" stroke="${S}" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M108,91 Q117,95 126,91" stroke="${S}" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.45"/>
+<ellipse cx="100" cy="112" rx="7" ry="5" fill="${S}" opacity="0.65"/>
+<path d="M130,72 L142,72 L130,62 L142,62" stroke="#BBBBBB" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M138,55 L152,55 L138,44 L152,44" stroke="#CCCCCC" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`
     }
   ],
 
@@ -232,6 +339,24 @@ const CHARACTER_PARTS = {
 <circle cx="140" cy="26" r="3" fill="#FFD700"/>
 <circle cx="152" cy="20" r="2" fill="#FFE566"/>
 <circle cx="100" cy="16" r="3.5" fill="#FFD700"/>`
+    },
+    {
+      name: "안경",
+      svg: `<circle cx="83" cy="90" r="14" fill="none" stroke="#555555" stroke-width="2.2"/>
+<circle cx="117" cy="90" r="14" fill="none" stroke="#555555" stroke-width="2.2"/>
+<line x1="97" y1="90" x2="103" y2="90" stroke="#555555" stroke-width="2.2"/>
+<line x1="28" y1="88" x2="69" y2="88" stroke="#555555" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="131" y1="88" x2="172" y2="88" stroke="#555555" stroke-width="1.8" stroke-linecap="round"/>`
+    },
+    {
+      name: "별핀",
+      svg: `<polygon points="150,44 152,52 160,52 154,57 156,65 150,60 144,65 146,57 140,52 148,52" fill="#FFD700" stroke="#E0A000" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="150" y1="65" x2="144" y2="77" stroke="#CC8800" stroke-width="2" stroke-linecap="round"/>`
+    },
+    {
+      name: "하트핀",
+      svg: `<path d="M50,56 C50,56 32,44 32,34 C32,26 42,24 50,32 C58,24 68,26 68,34 C68,44 50,56 50,56Z" fill="#FF4488" stroke="#CC1166" stroke-width="1.2"/>
+<line x1="50" y1="56" x2="55" y2="68" stroke="#CC1166" stroke-width="2" stroke-linecap="round"/>`
     }
   ]
 };
