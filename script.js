@@ -26,7 +26,12 @@ function renderCharacter(animate = false) {
   }
 }
 
+let isAnimating = false;
+
 function generateRandom() {
+  if (isAnimating) return;
+  isAnimating = true;
+
   const machine = document.getElementById('vendingMachine');
   const lights = document.querySelectorAll('.light');
   const btn = document.getElementById('randomBtn');
@@ -47,6 +52,7 @@ function generateRandom() {
     machine.classList.remove('machine-shaking');
     lights.forEach(l => l.classList.remove('light-flashing'));
     btn.classList.remove('btn-pressing');
+    isAnimating = false;
   }, 750);
 }
 
