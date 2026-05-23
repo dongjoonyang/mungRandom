@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>캐릭터 자판기</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+
+    <header class="app-header">
+      <h1>캐릭터 자판기</h1>
+      <p>버튼을 눌러 나만의 캐릭터를 뽑아보세요!</p>
+    </header>
+
+    <main class="app-main">
+
+      <!-- Vending Machine -->
+      <div class="vending-machine" id="vendingMachine">
+        <div class="machine-top">
+          <div class="machine-lights">
+            <span class="light"></span>
+            <span class="light"></span>
+            <span class="light"></span>
+          </div>
+          <div class="machine-logo">CHAR·MATIC</div>
+        </div>
+
+        <div class="machine-window">
+          <div class="machine-window-inner">
+            <span class="machine-window-text">캐릭터<br>자판기</span>
+          </div>
+        </div>
+
+        <div class="machine-panel">
+          <span class="screw"></span>
+          <span class="screw"></span>
+        </div>
+
+        <div class="machine-controls">
+          <button class="gumball-btn" id="randomBtn">
+            <span class="btn-icon">🎲</span>
+            <span class="btn-text">랜덤 뽑기!</span>
+          </button>
+        </div>
+
+        <div class="machine-slot">
+          <div class="slot-label">캐릭터 배출구</div>
+        </div>
+      </div>
+
+      <!-- Character Display -->
+      <div class="character-section">
+        <div class="character-frame" id="characterFrame">
+          <div class="character-display">
+            <svg id="characterSvg"
+                 viewBox="0 0 200 280"
+                 xmlns="http://www.w3.org/2000/svg">
+            </svg>
+          </div>
+          <div class="frame-label">나의 캐릭터</div>
+        </div>
+
+        <div class="download-section">
+          <button class="download-btn svg-btn" id="downloadSvg">📥 SVG 저장</button>
+          <button class="download-btn png-btn" id="downloadPng">🖼 PNG 저장</button>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Part Selectors -->
+    <section class="part-selectors">
+      <h2>파츠 직접 고르기</h2>
+      <div class="selectors-grid">
+        <div class="selector-group">
+          <h3>배경</h3>
+          <div class="selector-options" id="background-options"></div>
+        </div>
+        <div class="selector-group">
+          <h3>의상</h3>
+          <div class="selector-options" id="body-options"></div>
+        </div>
+        <div class="selector-group">
+          <h3>얼굴형</h3>
+          <div class="selector-options" id="face-options"></div>
+        </div>
+        <div class="selector-group">
+          <h3>표정</h3>
+          <div class="selector-options" id="facial-options"></div>
+        </div>
+        <div class="selector-group">
+          <h3>헤어</h3>
+          <div class="selector-options" id="hair-options"></div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="character-parts.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
